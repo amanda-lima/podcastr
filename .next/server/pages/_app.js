@@ -1,35 +1,227 @@
-"use strict";
-/*
- * ATTENTION: An "eval-source-map" devtool has been used.
- * This devtool is neither made for production nor for readable output files.
- * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
- * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
- * or disable the default devtool with "devtool: false".
- * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
- */
 (() => {
 var exports = {};
-exports.id = "pages/_app";
-exports.ids = ["pages/_app"];
+exports.id = 888;
+exports.ids = [888];
 exports.modules = {
 
-/***/ "./pages/_app.js":
-/*!***********************!*\
-  !*** ./pages/_app.js ***!
-  \***********************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ 588:
+/***/ ((module) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n\nfunction MyApp({ Component , pageProps  }) {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(Component, {\n        ...pageProps\n    }, void 0, false, {\n        fileName: \"/home/worker/workspace/podcastr/pages/_app.js\",\n        lineNumber: 2,\n        columnNumber: 10\n    }, this);\n}\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (MyApp);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9fYXBwLmpzLmpzIiwibWFwcGluZ3MiOiI7Ozs7OztBQUFBO0FBQUEsU0FBU0EsS0FBSyxDQUFDLEVBQUVDLFNBQVMsR0FBRUMsU0FBUyxHQUFFLEVBQUU7SUFDdkMscUJBQU8sOERBQUNELFNBQVM7UUFBRSxHQUFHQyxTQUFTOzs7OztZQUFJO0NBQ3BDO0FBRUQsaUVBQWVGLEtBQUsiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9wb2RjYXN0cm5leHQvLi9wYWdlcy9fYXBwLmpzP2UwYWQiXSwic291cmNlc0NvbnRlbnQiOlsiZnVuY3Rpb24gTXlBcHAoeyBDb21wb25lbnQsIHBhZ2VQcm9wcyB9KSB7XG4gIHJldHVybiA8Q29tcG9uZW50IHsuLi5wYWdlUHJvcHN9IC8+XG59XG5cbmV4cG9ydCBkZWZhdWx0IE15QXBwXG4iXSwibmFtZXMiOlsiTXlBcHAiLCJDb21wb25lbnQiLCJwYWdlUHJvcHMiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./pages/_app.js\n");
+// Exports
+module.exports = {
+	"headerContainer": "styles_headerContainer__uAgJk"
+};
+
 
 /***/ }),
 
-/***/ "react/jsx-dev-runtime":
-/*!****************************************!*\
-  !*** external "react/jsx-dev-runtime" ***!
-  \****************************************/
+/***/ 822:
 /***/ ((module) => {
 
-module.exports = require("react/jsx-dev-runtime");
+// Exports
+module.exports = {
+	"playerContainer": "styles_playerContainer__jNKI4",
+	"empty": "styles_empty__Oat2A",
+	"emptyPlayer": "styles_emptyPlayer__o7Xe4",
+	"progress": "styles_progress__08yEm",
+	"slider": "styles_slider__AMw_Y",
+	"emptySlider": "styles_emptySlider__x6i9F",
+	"buttons": "styles_buttons__ih6PH",
+	"playButton": "styles_playButton__ShCgu"
+};
+
+
+/***/ }),
+
+/***/ 666:
+/***/ ((module) => {
+
+// Exports
+module.exports = {
+	"wrapper": "app_wrapper__JmZWQ"
+};
+
+
+/***/ }),
+
+/***/ 736:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+// ESM COMPAT FLAG
+__webpack_require__.r(__webpack_exports__);
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  "default": () => (/* binding */ _app)
+});
+
+// EXTERNAL MODULE: external "react/jsx-runtime"
+var jsx_runtime_ = __webpack_require__(997);
+;// CONCATENATED MODULE: external "date-fns/format"
+const format_namespaceObject = require("date-fns/format");
+var format_default = /*#__PURE__*/__webpack_require__.n(format_namespaceObject);
+;// CONCATENATED MODULE: external "date-fns/locale/pt-BR"
+const pt_BR_namespaceObject = require("date-fns/locale/pt-BR");
+var pt_BR_default = /*#__PURE__*/__webpack_require__.n(pt_BR_namespaceObject);
+// EXTERNAL MODULE: ./src/components/Header/styles.module.scss
+var styles_module = __webpack_require__(588);
+var styles_module_default = /*#__PURE__*/__webpack_require__.n(styles_module);
+;// CONCATENATED MODULE: ./src/components/Header/index.tsx
+
+
+
+
+function Header() {
+    const currentDate = format_default()(new Date(), "EEEEEE, d MMMM", {
+        locale: (pt_BR_default())
+    });
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("header", {
+        className: (styles_module_default()).headerContainer,
+        children: [
+            /*#__PURE__*/ jsx_runtime_.jsx("img", {
+                src: "/logo.svg",
+                alt: "Podcastr"
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("p", {
+                children: "O melhor para voc\xea ouvir, sempre."
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                children: currentDate
+            })
+        ]
+    });
+}
+
+// EXTERNAL MODULE: ./src/components/Player/styles.module.scss
+var Player_styles_module = __webpack_require__(822);
+var Player_styles_module_default = /*#__PURE__*/__webpack_require__.n(Player_styles_module);
+;// CONCATENATED MODULE: ./src/components/Player/index.tsx
+
+
+function Player() {
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+        className: (Player_styles_module_default()).playerContainer,
+        children: [
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("header", {
+                children: [
+                    /*#__PURE__*/ jsx_runtime_.jsx("img", {
+                        src: "/playing.svg",
+                        alt: "Tocando agora"
+                    }),
+                    /*#__PURE__*/ jsx_runtime_.jsx("strong", {
+                        children: "Tocando Agora"
+                    })
+                ]
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                className: (Player_styles_module_default()).emptyPlayer,
+                children: /*#__PURE__*/ jsx_runtime_.jsx("strong", {
+                    children: "Selecione um podcast para ouvir"
+                })
+            }),
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("footer", {
+                className: (Player_styles_module_default()).empty,
+                children: [
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                        className: (Player_styles_module_default()).progress,
+                        children: [
+                            /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                children: "00:00"
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                className: (Player_styles_module_default()).slider,
+                                children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                                    className: (Player_styles_module_default()).emptySlider
+                                })
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("span", {
+                                children: "00:00"
+                            })
+                        ]
+                    }),
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                        className: (Player_styles_module_default()).buttons,
+                        children: [
+                            /*#__PURE__*/ jsx_runtime_.jsx("button", {
+                                type: "button",
+                                children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
+                                    src: "/shuffle.svg",
+                                    alt: "Embaralhar"
+                                })
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("button", {
+                                type: "button",
+                                children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
+                                    src: "/play-previous.svg",
+                                    alt: "Tocar Anterior"
+                                })
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("button", {
+                                type: "button",
+                                className: (Player_styles_module_default()).playButton,
+                                children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
+                                    src: "/play.svg",
+                                    alt: "Tocar"
+                                })
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("button", {
+                                type: "button",
+                                children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
+                                    src: "/play-next.svg",
+                                    alt: "Tocar Pr\xf3xima"
+                                })
+                            }),
+                            /*#__PURE__*/ jsx_runtime_.jsx("button", {
+                                type: "button",
+                                children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
+                                    src: "/repeat.svg",
+                                    alt: "Repetir"
+                                })
+                            })
+                        ]
+                    })
+                ]
+            })
+        ]
+    });
+}
+
+// EXTERNAL MODULE: ./src/styles/app.module.scss
+var app_module = __webpack_require__(666);
+var app_module_default = /*#__PURE__*/__webpack_require__.n(app_module);
+;// CONCATENATED MODULE: ./src/pages/_app.tsx
+
+
+
+
+
+function MyApp({ Component , pageProps  }) {
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+        className: (app_module_default()).wrapper,
+        children: [
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("main", {
+                children: [
+                    /*#__PURE__*/ jsx_runtime_.jsx(Header, {}),
+                    /*#__PURE__*/ jsx_runtime_.jsx(Component, {
+                        ...pageProps
+                    })
+                ]
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx(Player, {})
+        ]
+    });
+}
+/* harmony default export */ const _app = (MyApp);
+
+
+/***/ }),
+
+/***/ 997:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("react/jsx-runtime");
 
 /***/ })
 
@@ -40,7 +232,7 @@ module.exports = require("react/jsx-dev-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = (__webpack_exec__("./pages/_app.js"));
+var __webpack_exports__ = (__webpack_exec__(736));
 module.exports = __webpack_exports__;
 
 })();
