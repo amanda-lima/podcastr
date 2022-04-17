@@ -1,227 +1,120 @@
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
 (() => {
 var exports = {};
-exports.id = 888;
-exports.ids = [888];
+exports.id = "pages/_app";
+exports.ids = ["pages/_app"];
 exports.modules = {
 
-/***/ 588:
+/***/ "./src/components/Header/styles.module.scss":
+/*!**************************************************!*\
+  !*** ./src/components/Header/styles.module.scss ***!
+  \**************************************************/
 /***/ ((module) => {
 
-// Exports
-module.exports = {
-	"headerContainer": "styles_headerContainer__uAgJk"
-};
-
+eval("// Exports\nmodule.exports = {\n\t\"headerContainer\": \"styles_headerContainer__uAgJk\"\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvY29tcG9uZW50cy9IZWFkZXIvc3R5bGVzLm1vZHVsZS5zY3NzLmpzIiwibWFwcGluZ3MiOiJBQUFBO0FBQ0E7QUFDQTtBQUNBIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vcG9kY2FzdHJuZXh0Ly4vc3JjL2NvbXBvbmVudHMvSGVhZGVyL3N0eWxlcy5tb2R1bGUuc2Nzcz9hMjM4Il0sInNvdXJjZXNDb250ZW50IjpbIi8vIEV4cG9ydHNcbm1vZHVsZS5leHBvcnRzID0ge1xuXHRcImhlYWRlckNvbnRhaW5lclwiOiBcInN0eWxlc19oZWFkZXJDb250YWluZXJfX3VBZ0prXCJcbn07XG4iXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/components/Header/styles.module.scss\n");
 
 /***/ }),
 
-/***/ 822:
+/***/ "./src/components/Player/styles.module.scss":
+/*!**************************************************!*\
+  !*** ./src/components/Player/styles.module.scss ***!
+  \**************************************************/
 /***/ ((module) => {
 
-// Exports
-module.exports = {
-	"playerContainer": "styles_playerContainer__jNKI4",
-	"empty": "styles_empty__Oat2A",
-	"emptyPlayer": "styles_emptyPlayer__o7Xe4",
-	"progress": "styles_progress__08yEm",
-	"slider": "styles_slider__AMw_Y",
-	"emptySlider": "styles_emptySlider__x6i9F",
-	"buttons": "styles_buttons__ih6PH",
-	"playButton": "styles_playButton__ShCgu"
-};
-
+eval("// Exports\nmodule.exports = {\n\t\"playerContainer\": \"styles_playerContainer__jNKI4\",\n\t\"empty\": \"styles_empty__Oat2A\",\n\t\"emptyPlayer\": \"styles_emptyPlayer__o7Xe4\",\n\t\"progress\": \"styles_progress__08yEm\",\n\t\"slider\": \"styles_slider__AMw_Y\",\n\t\"emptySlider\": \"styles_emptySlider__x6i9F\",\n\t\"buttons\": \"styles_buttons__ih6PH\",\n\t\"playButton\": \"styles_playButton__ShCgu\"\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvY29tcG9uZW50cy9QbGF5ZXIvc3R5bGVzLm1vZHVsZS5zY3NzLmpzIiwibWFwcGluZ3MiOiJBQUFBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9wb2RjYXN0cm5leHQvLi9zcmMvY29tcG9uZW50cy9QbGF5ZXIvc3R5bGVzLm1vZHVsZS5zY3NzP2VhNWQiXSwic291cmNlc0NvbnRlbnQiOlsiLy8gRXhwb3J0c1xubW9kdWxlLmV4cG9ydHMgPSB7XG5cdFwicGxheWVyQ29udGFpbmVyXCI6IFwic3R5bGVzX3BsYXllckNvbnRhaW5lcl9fak5LSTRcIixcblx0XCJlbXB0eVwiOiBcInN0eWxlc19lbXB0eV9fT2F0MkFcIixcblx0XCJlbXB0eVBsYXllclwiOiBcInN0eWxlc19lbXB0eVBsYXllcl9fbzdYZTRcIixcblx0XCJwcm9ncmVzc1wiOiBcInN0eWxlc19wcm9ncmVzc19fMDh5RW1cIixcblx0XCJzbGlkZXJcIjogXCJzdHlsZXNfc2xpZGVyX19BTXdfWVwiLFxuXHRcImVtcHR5U2xpZGVyXCI6IFwic3R5bGVzX2VtcHR5U2xpZGVyX194Nmk5RlwiLFxuXHRcImJ1dHRvbnNcIjogXCJzdHlsZXNfYnV0dG9uc19faWg2UEhcIixcblx0XCJwbGF5QnV0dG9uXCI6IFwic3R5bGVzX3BsYXlCdXR0b25fX1NoQ2d1XCJcbn07XG4iXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/components/Player/styles.module.scss\n");
 
 /***/ }),
 
-/***/ 666:
+/***/ "./src/styles/app.module.scss":
+/*!************************************!*\
+  !*** ./src/styles/app.module.scss ***!
+  \************************************/
 /***/ ((module) => {
 
-// Exports
-module.exports = {
-	"wrapper": "app_wrapper__JmZWQ"
-};
-
+eval("// Exports\nmodule.exports = {\n\t\"wrapper\": \"app_wrapper__JmZWQ\"\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvc3R5bGVzL2FwcC5tb2R1bGUuc2Nzcy5qcyIsIm1hcHBpbmdzIjoiQUFBQTtBQUNBO0FBQ0E7QUFDQSIsInNvdXJjZXMiOlsid2VicGFjazovL3BvZGNhc3RybmV4dC8uL3NyYy9zdHlsZXMvYXBwLm1vZHVsZS5zY3NzP2QwMTIiXSwic291cmNlc0NvbnRlbnQiOlsiLy8gRXhwb3J0c1xubW9kdWxlLmV4cG9ydHMgPSB7XG5cdFwid3JhcHBlclwiOiBcImFwcF93cmFwcGVyX19KbVpXUVwiXG59O1xuIl0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./src/styles/app.module.scss\n");
 
 /***/ }),
 
-/***/ 736:
+/***/ "./src/components/Header/index.tsx":
+/*!*****************************************!*\
+  !*** ./src/components/Header/index.tsx ***!
+  \*****************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-// ESM COMPAT FLAG
-__webpack_require__.r(__webpack_exports__);
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"Header\": () => (/* binding */ Header)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var date_fns_format__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! date-fns/format */ \"date-fns/format\");\n/* harmony import */ var date_fns_format__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(date_fns_format__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var date_fns_locale_pt_BR__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! date-fns/locale/pt-BR */ \"date-fns/locale/pt-BR\");\n/* harmony import */ var date_fns_locale_pt_BR__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(date_fns_locale_pt_BR__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _styles_module_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./styles.module.scss */ \"./src/components/Header/styles.module.scss\");\n/* harmony import */ var _styles_module_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_module_scss__WEBPACK_IMPORTED_MODULE_3__);\n\n\n\n\nfunction Header() {\n    const currentDate = date_fns_format__WEBPACK_IMPORTED_MODULE_1___default()(new Date(), \"EEEEEE, d MMMM\", {\n        locale: (date_fns_locale_pt_BR__WEBPACK_IMPORTED_MODULE_2___default())\n    });\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"header\", {\n        className: (_styles_module_scss__WEBPACK_IMPORTED_MODULE_3___default().headerContainer),\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"img\", {\n                src: \"/logo.svg\",\n                alt: \"Podcastr\"\n            }, void 0, false, {\n                fileName: \"C:\\\\workspace\\\\podcastr\\\\src\\\\components\\\\Header\\\\index.tsx\",\n                lineNumber: 13,\n                columnNumber: 13\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                children: \"O melhor para voc\\xea ouvir, sempre.\"\n            }, void 0, false, {\n                fileName: \"C:\\\\workspace\\\\podcastr\\\\src\\\\components\\\\Header\\\\index.tsx\",\n                lineNumber: 15,\n                columnNumber: 13\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                children: currentDate\n            }, void 0, false, {\n                fileName: \"C:\\\\workspace\\\\podcastr\\\\src\\\\components\\\\Header\\\\index.tsx\",\n                lineNumber: 17,\n                columnNumber: 13\n            }, this)\n        ]\n    }, void 0, true, {\n        fileName: \"C:\\\\workspace\\\\podcastr\\\\src\\\\components\\\\Header\\\\index.tsx\",\n        lineNumber: 12,\n        columnNumber: 9\n    }, this);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvY29tcG9uZW50cy9IZWFkZXIvaW5kZXgudHN4LmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7OztBQUFBO0FBQXFDO0FBQ0c7QUFFQztBQUVsQyxTQUFTRyxNQUFNLEdBQUc7SUFDckIsTUFBTUMsV0FBVyxHQUFHSixzREFBTSxDQUFDLElBQUlLLElBQUksRUFBRSxFQUFFLGdCQUFnQixFQUFFO1FBQ3JEQyxNQUFNLEVBQUVMLDhEQUFJO0tBQ2YsQ0FBQztJQUVGLHFCQUNJLDhEQUFDTSxRQUFNO1FBQUNDLFNBQVMsRUFBRU4sNEVBQXNCOzswQkFDckMsOERBQUNRLEtBQUc7Z0JBQUNDLEdBQUcsRUFBQyxXQUFXO2dCQUFDQyxHQUFHLEVBQUMsVUFBVTs7Ozs7b0JBQUc7MEJBRXRDLDhEQUFDQyxHQUFDOzBCQUFDLHNDQUFpQzs7Ozs7b0JBQUk7MEJBRXhDLDhEQUFDQyxNQUFJOzBCQUFFVixXQUFXOzs7OztvQkFBUTs7Ozs7O1lBQ3JCLENBQ1g7Q0FDTCIsInNvdXJjZXMiOlsid2VicGFjazovL3BvZGNhc3RybmV4dC8uL3NyYy9jb21wb25lbnRzL0hlYWRlci9pbmRleC50c3g/NDAwMyJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgZm9ybWF0IGZyb20gJ2RhdGUtZm5zL2Zvcm1hdCc7XHJcbmltcG9ydCBwdEJSIGZyb20gJ2RhdGUtZm5zL2xvY2FsZS9wdC1CUidcclxuXHJcbmltcG9ydCBzdHlsZXMgZnJvbSAnLi9zdHlsZXMubW9kdWxlLnNjc3MnXHJcblxyXG5leHBvcnQgZnVuY3Rpb24gSGVhZGVyKCkge1xyXG4gICAgY29uc3QgY3VycmVudERhdGUgPSBmb3JtYXQobmV3IERhdGUoKSwgJ0VFRUVFRSwgZCBNTU1NJywge1xyXG4gICAgICAgIGxvY2FsZTogcHRCUlxyXG4gICAgfSlcclxuXHJcbiAgICByZXR1cm4gKFxyXG4gICAgICAgIDxoZWFkZXIgY2xhc3NOYW1lPXtzdHlsZXMuaGVhZGVyQ29udGFpbmVyfT5cclxuICAgICAgICAgICAgPGltZyBzcmM9XCIvbG9nby5zdmdcIiBhbHQ9XCJQb2RjYXN0clwiIC8+XHJcblxyXG4gICAgICAgICAgICA8cD5PIG1lbGhvciBwYXJhIHZvY8OqIG91dmlyLCBzZW1wcmUuPC9wPlxyXG5cclxuICAgICAgICAgICAgPHNwYW4+e2N1cnJlbnREYXRlfTwvc3Bhbj5cclxuICAgICAgICA8L2hlYWRlcj5cclxuICAgICk7XHJcbn0iXSwibmFtZXMiOlsiZm9ybWF0IiwicHRCUiIsInN0eWxlcyIsIkhlYWRlciIsImN1cnJlbnREYXRlIiwiRGF0ZSIsImxvY2FsZSIsImhlYWRlciIsImNsYXNzTmFtZSIsImhlYWRlckNvbnRhaW5lciIsImltZyIsInNyYyIsImFsdCIsInAiLCJzcGFuIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/components/Header/index.tsx\n");
 
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, {
-  "default": () => (/* binding */ _app)
-});
+/***/ }),
 
-// EXTERNAL MODULE: external "react/jsx-runtime"
-var jsx_runtime_ = __webpack_require__(997);
-;// CONCATENATED MODULE: external "date-fns/format"
-const format_namespaceObject = require("date-fns/format");
-var format_default = /*#__PURE__*/__webpack_require__.n(format_namespaceObject);
-;// CONCATENATED MODULE: external "date-fns/locale/pt-BR"
-const pt_BR_namespaceObject = require("date-fns/locale/pt-BR");
-var pt_BR_default = /*#__PURE__*/__webpack_require__.n(pt_BR_namespaceObject);
-// EXTERNAL MODULE: ./src/components/Header/styles.module.scss
-var styles_module = __webpack_require__(588);
-var styles_module_default = /*#__PURE__*/__webpack_require__.n(styles_module);
-;// CONCATENATED MODULE: ./src/components/Header/index.tsx
+/***/ "./src/components/Player/index.tsx":
+/*!*****************************************!*\
+  !*** ./src/components/Player/index.tsx ***!
+  \*****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"Player\": () => (/* binding */ Player)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _styles_module_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles.module.scss */ \"./src/components/Player/styles.module.scss\");\n/* harmony import */ var _styles_module_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_module_scss__WEBPACK_IMPORTED_MODULE_1__);\n\n\nfunction Player() {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        className: (_styles_module_scss__WEBPACK_IMPORTED_MODULE_1___default().playerContainer),\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"header\", {\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"img\", {\n                        src: \"/playing.svg\",\n                        alt: \"Tocando agora\"\n                    }, void 0, false, {\n                        fileName: \"C:\\\\workspace\\\\podcastr\\\\src\\\\components\\\\Player\\\\index.tsx\",\n                        lineNumber: 7,\n                        columnNumber: 17\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"strong\", {\n                        children: \"Tocando Agora\"\n                    }, void 0, false, {\n                        fileName: \"C:\\\\workspace\\\\podcastr\\\\src\\\\components\\\\Player\\\\index.tsx\",\n                        lineNumber: 8,\n                        columnNumber: 17\n                    }, this)\n                ]\n            }, void 0, true, {\n                fileName: \"C:\\\\workspace\\\\podcastr\\\\src\\\\components\\\\Player\\\\index.tsx\",\n                lineNumber: 6,\n                columnNumber: 13\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: (_styles_module_scss__WEBPACK_IMPORTED_MODULE_1___default().emptyPlayer),\n                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"strong\", {\n                    children: \"Selecione um podcast para ouvir\"\n                }, void 0, false, {\n                    fileName: \"C:\\\\workspace\\\\podcastr\\\\src\\\\components\\\\Player\\\\index.tsx\",\n                    lineNumber: 12,\n                    columnNumber: 17\n                }, this)\n            }, void 0, false, {\n                fileName: \"C:\\\\workspace\\\\podcastr\\\\src\\\\components\\\\Player\\\\index.tsx\",\n                lineNumber: 11,\n                columnNumber: 13\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"footer\", {\n                className: (_styles_module_scss__WEBPACK_IMPORTED_MODULE_1___default().empty),\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                        className: (_styles_module_scss__WEBPACK_IMPORTED_MODULE_1___default().progress),\n                        children: [\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                                children: \"00:00\"\n                            }, void 0, false, {\n                                fileName: \"C:\\\\workspace\\\\podcastr\\\\src\\\\components\\\\Player\\\\index.tsx\",\n                                lineNumber: 17,\n                                columnNumber: 21\n                            }, this),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                className: (_styles_module_scss__WEBPACK_IMPORTED_MODULE_1___default().slider),\n                                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                    className: (_styles_module_scss__WEBPACK_IMPORTED_MODULE_1___default().emptySlider)\n                                }, void 0, false, {\n                                    fileName: \"C:\\\\workspace\\\\podcastr\\\\src\\\\components\\\\Player\\\\index.tsx\",\n                                    lineNumber: 19,\n                                    columnNumber: 25\n                                }, this)\n                            }, void 0, false, {\n                                fileName: \"C:\\\\workspace\\\\podcastr\\\\src\\\\components\\\\Player\\\\index.tsx\",\n                                lineNumber: 18,\n                                columnNumber: 21\n                            }, this),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                                children: \"00:00\"\n                            }, void 0, false, {\n                                fileName: \"C:\\\\workspace\\\\podcastr\\\\src\\\\components\\\\Player\\\\index.tsx\",\n                                lineNumber: 21,\n                                columnNumber: 21\n                            }, this)\n                        ]\n                    }, void 0, true, {\n                        fileName: \"C:\\\\workspace\\\\podcastr\\\\src\\\\components\\\\Player\\\\index.tsx\",\n                        lineNumber: 16,\n                        columnNumber: 17\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                        className: (_styles_module_scss__WEBPACK_IMPORTED_MODULE_1___default().buttons),\n                        children: [\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"button\", {\n                                type: \"button\",\n                                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"img\", {\n                                    src: \"/shuffle.svg\",\n                                    alt: \"Embaralhar\"\n                                }, void 0, false, {\n                                    fileName: \"C:\\\\workspace\\\\podcastr\\\\src\\\\components\\\\Player\\\\index.tsx\",\n                                    lineNumber: 26,\n                                    columnNumber: 25\n                                }, this)\n                            }, void 0, false, {\n                                fileName: \"C:\\\\workspace\\\\podcastr\\\\src\\\\components\\\\Player\\\\index.tsx\",\n                                lineNumber: 25,\n                                columnNumber: 21\n                            }, this),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"button\", {\n                                type: \"button\",\n                                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"img\", {\n                                    src: \"/play-previous.svg\",\n                                    alt: \"Tocar Anterior\"\n                                }, void 0, false, {\n                                    fileName: \"C:\\\\workspace\\\\podcastr\\\\src\\\\components\\\\Player\\\\index.tsx\",\n                                    lineNumber: 29,\n                                    columnNumber: 25\n                                }, this)\n                            }, void 0, false, {\n                                fileName: \"C:\\\\workspace\\\\podcastr\\\\src\\\\components\\\\Player\\\\index.tsx\",\n                                lineNumber: 28,\n                                columnNumber: 21\n                            }, this),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"button\", {\n                                type: \"button\",\n                                className: (_styles_module_scss__WEBPACK_IMPORTED_MODULE_1___default().playButton),\n                                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"img\", {\n                                    src: \"/play.svg\",\n                                    alt: \"Tocar\"\n                                }, void 0, false, {\n                                    fileName: \"C:\\\\workspace\\\\podcastr\\\\src\\\\components\\\\Player\\\\index.tsx\",\n                                    lineNumber: 32,\n                                    columnNumber: 25\n                                }, this)\n                            }, void 0, false, {\n                                fileName: \"C:\\\\workspace\\\\podcastr\\\\src\\\\components\\\\Player\\\\index.tsx\",\n                                lineNumber: 31,\n                                columnNumber: 21\n                            }, this),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"button\", {\n                                type: \"button\",\n                                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"img\", {\n                                    src: \"/play-next.svg\",\n                                    alt: \"Tocar Pr\\xf3xima\"\n                                }, void 0, false, {\n                                    fileName: \"C:\\\\workspace\\\\podcastr\\\\src\\\\components\\\\Player\\\\index.tsx\",\n                                    lineNumber: 35,\n                                    columnNumber: 25\n                                }, this)\n                            }, void 0, false, {\n                                fileName: \"C:\\\\workspace\\\\podcastr\\\\src\\\\components\\\\Player\\\\index.tsx\",\n                                lineNumber: 34,\n                                columnNumber: 21\n                            }, this),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"button\", {\n                                type: \"button\",\n                                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"img\", {\n                                    src: \"/repeat.svg\",\n                                    alt: \"Repetir\"\n                                }, void 0, false, {\n                                    fileName: \"C:\\\\workspace\\\\podcastr\\\\src\\\\components\\\\Player\\\\index.tsx\",\n                                    lineNumber: 38,\n                                    columnNumber: 25\n                                }, this)\n                            }, void 0, false, {\n                                fileName: \"C:\\\\workspace\\\\podcastr\\\\src\\\\components\\\\Player\\\\index.tsx\",\n                                lineNumber: 37,\n                                columnNumber: 21\n                            }, this)\n                        ]\n                    }, void 0, true, {\n                        fileName: \"C:\\\\workspace\\\\podcastr\\\\src\\\\components\\\\Player\\\\index.tsx\",\n                        lineNumber: 24,\n                        columnNumber: 17\n                    }, this)\n                ]\n            }, void 0, true, {\n                fileName: \"C:\\\\workspace\\\\podcastr\\\\src\\\\components\\\\Player\\\\index.tsx\",\n                lineNumber: 15,\n                columnNumber: 13\n            }, this)\n        ]\n    }, void 0, true, {\n        fileName: \"C:\\\\workspace\\\\podcastr\\\\src\\\\components\\\\Player\\\\index.tsx\",\n        lineNumber: 5,\n        columnNumber: 9\n    }, this);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvY29tcG9uZW50cy9QbGF5ZXIvaW5kZXgudHN4LmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7O0FBQUE7QUFBeUM7QUFFbEMsU0FBU0MsTUFBTSxHQUFHO0lBQ3JCLHFCQUNJLDhEQUFDQyxLQUFHO1FBQUNDLFNBQVMsRUFBRUgsNEVBQXNCOzswQkFDbEMsOERBQUNLLFFBQU07O2tDQUNILDhEQUFDQyxLQUFHO3dCQUFDQyxHQUFHLEVBQUMsY0FBYzt3QkFBQ0MsR0FBRyxFQUFDLGVBQWU7Ozs7OzRCQUFHO2tDQUM5Qyw4REFBQ0MsUUFBTTtrQ0FBQyxlQUFhOzs7Ozs0QkFBUzs7Ozs7O29CQUN6QjswQkFFVCw4REFBQ1AsS0FBRztnQkFBQ0MsU0FBUyxFQUFFSCx3RUFBa0I7MEJBQzlCLDRFQUFDUyxRQUFNOzhCQUFDLGlDQUErQjs7Ozs7d0JBQVM7Ozs7O29CQUM5QzswQkFFTiw4REFBQ0UsUUFBTTtnQkFBQ1IsU0FBUyxFQUFFSCxrRUFBWTs7a0NBQzNCLDhEQUFDRSxLQUFHO3dCQUFDQyxTQUFTLEVBQUVILHFFQUFlOzswQ0FDM0IsOERBQUNjLE1BQUk7MENBQUMsT0FBSzs7Ozs7b0NBQU87MENBQ2xCLDhEQUFDWixLQUFHO2dDQUFDQyxTQUFTLEVBQUVILG1FQUFhOzBDQUN6Qiw0RUFBQ0UsS0FBRztvQ0FBQ0MsU0FBUyxFQUFFSCx3RUFBa0I7Ozs7O3dDQUFHOzs7OztvQ0FDbkM7MENBQ04sOERBQUNjLE1BQUk7MENBQUMsT0FBSzs7Ozs7b0NBQU87Ozs7Ozs0QkFDaEI7a0NBRU4sOERBQUNaLEtBQUc7d0JBQUNDLFNBQVMsRUFBRUgsb0VBQWM7OzBDQUMxQiw4REFBQ2tCLFFBQU07Z0NBQUNDLElBQUksRUFBQyxRQUFROzBDQUNqQiw0RUFBQ2IsS0FBRztvQ0FBQ0MsR0FBRyxFQUFDLGNBQWM7b0NBQUNDLEdBQUcsRUFBQyxZQUFZOzs7Ozt3Q0FBRzs7Ozs7b0NBQ3RDOzBDQUNULDhEQUFDVSxRQUFNO2dDQUFDQyxJQUFJLEVBQUMsUUFBUTswQ0FDakIsNEVBQUNiLEtBQUc7b0NBQUNDLEdBQUcsRUFBQyxvQkFBb0I7b0NBQUNDLEdBQUcsRUFBQyxnQkFBZ0I7Ozs7O3dDQUFHOzs7OztvQ0FDaEQ7MENBQ1QsOERBQUNVLFFBQU07Z0NBQUNDLElBQUksRUFBQyxRQUFRO2dDQUFDaEIsU0FBUyxFQUFFSCx1RUFBaUI7MENBQzlDLDRFQUFDTSxLQUFHO29DQUFDQyxHQUFHLEVBQUMsV0FBVztvQ0FBQ0MsR0FBRyxFQUFDLE9BQU87Ozs7O3dDQUFHOzs7OztvQ0FDOUI7MENBQ1QsOERBQUNVLFFBQU07Z0NBQUNDLElBQUksRUFBQyxRQUFROzBDQUNqQiw0RUFBQ2IsS0FBRztvQ0FBQ0MsR0FBRyxFQUFDLGdCQUFnQjtvQ0FBQ0MsR0FBRyxFQUFDLGtCQUFlOzs7Ozt3Q0FBRzs7Ozs7b0NBQzNDOzBDQUNULDhEQUFDVSxRQUFNO2dDQUFDQyxJQUFJLEVBQUMsUUFBUTswQ0FDakIsNEVBQUNiLEtBQUc7b0NBQUNDLEdBQUcsRUFBQyxhQUFhO29DQUFDQyxHQUFHLEVBQUMsU0FBUzs7Ozs7d0NBQUc7Ozs7O29DQUNsQzs7Ozs7OzRCQUNQOzs7Ozs7b0JBQ0Q7Ozs7OztZQUVQLENBQ1I7Q0FDTCIsInNvdXJjZXMiOlsid2VicGFjazovL3BvZGNhc3RybmV4dC8uL3NyYy9jb21wb25lbnRzL1BsYXllci9pbmRleC50c3g/ZTVmNyJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgc3R5bGVzIGZyb20gJy4vc3R5bGVzLm1vZHVsZS5zY3NzJ1xyXG5cclxuZXhwb3J0IGZ1bmN0aW9uIFBsYXllcigpIHtcclxuICAgIHJldHVybiAoXHJcbiAgICAgICAgPGRpdiBjbGFzc05hbWU9e3N0eWxlcy5wbGF5ZXJDb250YWluZXJ9PlxyXG4gICAgICAgICAgICA8aGVhZGVyPlxyXG4gICAgICAgICAgICAgICAgPGltZyBzcmM9XCIvcGxheWluZy5zdmdcIiBhbHQ9XCJUb2NhbmRvIGFnb3JhXCIgLz5cclxuICAgICAgICAgICAgICAgIDxzdHJvbmc+VG9jYW5kbyBBZ29yYTwvc3Ryb25nPlxyXG4gICAgICAgICAgICA8L2hlYWRlcj5cclxuXHJcbiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPXtzdHlsZXMuZW1wdHlQbGF5ZXJ9PlxyXG4gICAgICAgICAgICAgICAgPHN0cm9uZz5TZWxlY2lvbmUgdW0gcG9kY2FzdCBwYXJhIG91dmlyPC9zdHJvbmc+XHJcbiAgICAgICAgICAgIDwvZGl2PlxyXG5cclxuICAgICAgICAgICAgPGZvb3RlciBjbGFzc05hbWU9e3N0eWxlcy5lbXB0eX0+XHJcbiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT17c3R5bGVzLnByb2dyZXNzfT5cclxuICAgICAgICAgICAgICAgICAgICA8c3Bhbj4wMDowMDwvc3Bhbj5cclxuICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT17c3R5bGVzLnNsaWRlcn0+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPXtzdHlsZXMuZW1wdHlTbGlkZXJ9Lz5cclxuICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cclxuICAgICAgICAgICAgICAgICAgICA8c3Bhbj4wMDowMDwvc3Bhbj5cclxuICAgICAgICAgICAgICAgIDwvZGl2PlxyXG5cclxuICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPXtzdHlsZXMuYnV0dG9uc30+XHJcbiAgICAgICAgICAgICAgICAgICAgPGJ1dHRvbiB0eXBlPVwiYnV0dG9uXCI+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDxpbWcgc3JjPVwiL3NodWZmbGUuc3ZnXCIgYWx0PVwiRW1iYXJhbGhhclwiIC8+XHJcbiAgICAgICAgICAgICAgICAgICAgPC9idXR0b24+XHJcbiAgICAgICAgICAgICAgICAgICAgPGJ1dHRvbiB0eXBlPVwiYnV0dG9uXCI+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDxpbWcgc3JjPVwiL3BsYXktcHJldmlvdXMuc3ZnXCIgYWx0PVwiVG9jYXIgQW50ZXJpb3JcIiAvPlxyXG4gICAgICAgICAgICAgICAgICAgIDwvYnV0dG9uPlxyXG4gICAgICAgICAgICAgICAgICAgIDxidXR0b24gdHlwZT1cImJ1dHRvblwiIGNsYXNzTmFtZT17c3R5bGVzLnBsYXlCdXR0b259PlxyXG4gICAgICAgICAgICAgICAgICAgICAgICA8aW1nIHNyYz1cIi9wbGF5LnN2Z1wiIGFsdD1cIlRvY2FyXCIgLz5cclxuICAgICAgICAgICAgICAgICAgICA8L2J1dHRvbj5cclxuICAgICAgICAgICAgICAgICAgICA8YnV0dG9uIHR5cGU9XCJidXR0b25cIj5cclxuICAgICAgICAgICAgICAgICAgICAgICAgPGltZyBzcmM9XCIvcGxheS1uZXh0LnN2Z1wiIGFsdD1cIlRvY2FyIFByw7N4aW1hXCIgLz5cclxuICAgICAgICAgICAgICAgICAgICA8L2J1dHRvbj5cclxuICAgICAgICAgICAgICAgICAgICA8YnV0dG9uIHR5cGU9XCJidXR0b25cIj5cclxuICAgICAgICAgICAgICAgICAgICAgICAgPGltZyBzcmM9XCIvcmVwZWF0LnN2Z1wiIGFsdD1cIlJlcGV0aXJcIiAvPlxyXG4gICAgICAgICAgICAgICAgICAgIDwvYnV0dG9uPlxyXG4gICAgICAgICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgICAgIDwvZm9vdGVyPlxyXG5cclxuICAgICAgICA8L2Rpdj5cclxuICAgICk7XHJcbn0iXSwibmFtZXMiOlsic3R5bGVzIiwiUGxheWVyIiwiZGl2IiwiY2xhc3NOYW1lIiwicGxheWVyQ29udGFpbmVyIiwiaGVhZGVyIiwiaW1nIiwic3JjIiwiYWx0Iiwic3Ryb25nIiwiZW1wdHlQbGF5ZXIiLCJmb290ZXIiLCJlbXB0eSIsInByb2dyZXNzIiwic3BhbiIsInNsaWRlciIsImVtcHR5U2xpZGVyIiwiYnV0dG9ucyIsImJ1dHRvbiIsInR5cGUiLCJwbGF5QnV0dG9uIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/components/Player/index.tsx\n");
 
+/***/ }),
 
+/***/ "./src/pages/_app.tsx":
+/*!****************************!*\
+  !*** ./src/pages/_app.tsx ***!
+  \****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-function Header() {
-    const currentDate = format_default()(new Date(), "EEEEEE, d MMMM", {
-        locale: (pt_BR_default())
-    });
-    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("header", {
-        className: (styles_module_default()).headerContainer,
-        children: [
-            /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                src: "/logo.svg",
-                alt: "Podcastr"
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                children: "O melhor para voc\xea ouvir, sempre."
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                children: currentDate
-            })
-        ]
-    });
-}
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _components_Header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Header */ \"./src/components/Header/index.tsx\");\n/* harmony import */ var _components_Player__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Player */ \"./src/components/Player/index.tsx\");\n/* harmony import */ var _styles_global_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../styles/global.scss */ \"./src/styles/global.scss\");\n/* harmony import */ var _styles_global_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_global_scss__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _styles_app_module_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../styles/app.module.scss */ \"./src/styles/app.module.scss\");\n/* harmony import */ var _styles_app_module_scss__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_styles_app_module_scss__WEBPACK_IMPORTED_MODULE_4__);\n\n\n\n\n\nfunction MyApp({ Component , pageProps  }) {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        className: (_styles_app_module_scss__WEBPACK_IMPORTED_MODULE_4___default().wrapper),\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"main\", {\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_Header__WEBPACK_IMPORTED_MODULE_1__.Header, {}, void 0, false, {\n                        fileName: \"C:\\\\workspace\\\\podcastr\\\\src\\\\pages\\\\_app.tsx\",\n                        lineNumber: 11,\n                        columnNumber: 7\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(Component, {\n                        ...pageProps\n                    }, void 0, false, {\n                        fileName: \"C:\\\\workspace\\\\podcastr\\\\src\\\\pages\\\\_app.tsx\",\n                        lineNumber: 12,\n                        columnNumber: 7\n                    }, this)\n                ]\n            }, void 0, true, {\n                fileName: \"C:\\\\workspace\\\\podcastr\\\\src\\\\pages\\\\_app.tsx\",\n                lineNumber: 10,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_Player__WEBPACK_IMPORTED_MODULE_2__.Player, {}, void 0, false, {\n                fileName: \"C:\\\\workspace\\\\podcastr\\\\src\\\\pages\\\\_app.tsx\",\n                lineNumber: 14,\n                columnNumber: 7\n            }, this)\n        ]\n    }, void 0, true, {\n        fileName: \"C:\\\\workspace\\\\podcastr\\\\src\\\\pages\\\\_app.tsx\",\n        lineNumber: 9,\n        columnNumber: 5\n    }, this);\n}\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (MyApp);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvcGFnZXMvX2FwcC50c3guanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7O0FBQUE7QUFBNkM7QUFDQTtBQUVmO0FBQ2dCO0FBRTlDLFNBQVNHLEtBQUssQ0FBQyxFQUFFQyxTQUFTLEdBQUVDLFNBQVMsR0FBRSxFQUFFO0lBQ3ZDLHFCQUNFLDhEQUFDQyxLQUFHO1FBQUNDLFNBQVMsRUFBRUwsd0VBQWM7OzBCQUM1Qiw4REFBQ08sTUFBSTs7a0NBQ0wsOERBQUNULHNEQUFNOzs7OzRCQUFHO2tDQUNWLDhEQUFDSSxTQUFTO3dCQUFFLEdBQUdDLFNBQVM7Ozs7OzRCQUFJOzs7Ozs7b0JBQ3JCOzBCQUNQLDhEQUFDSixzREFBTTs7OztvQkFBRzs7Ozs7O1lBQ04sQ0FDUDtDQUNGO0FBRUQsaUVBQWVFLEtBQUsiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9wb2RjYXN0cm5leHQvLi9zcmMvcGFnZXMvX2FwcC50c3g/ZjlkNiJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBIZWFkZXIgfSBmcm9tICcuLi9jb21wb25lbnRzL0hlYWRlcidcbmltcG9ydCB7IFBsYXllciB9IGZyb20gJy4uL2NvbXBvbmVudHMvUGxheWVyJ1xuXG5pbXBvcnQgJy4uL3N0eWxlcy9nbG9iYWwuc2NzcydcbmltcG9ydCBzdHlsZXMgZnJvbSAnLi4vc3R5bGVzL2FwcC5tb2R1bGUuc2NzcydcblxuZnVuY3Rpb24gTXlBcHAoeyBDb21wb25lbnQsIHBhZ2VQcm9wcyB9KSB7XG4gIHJldHVybiAoXG4gICAgPGRpdiBjbGFzc05hbWU9e3N0eWxlcy53cmFwcGVyfT5cbiAgICAgIDxtYWluPlxuICAgICAgPEhlYWRlciAvPlxuICAgICAgPENvbXBvbmVudCB7Li4ucGFnZVByb3BzfSAvPlxuICAgICAgPC9tYWluPlxuICAgICAgPFBsYXllciAvPlxuICAgIDwvZGl2PlxuICApXG59XG5cbmV4cG9ydCBkZWZhdWx0IE15QXBwXG4iXSwibmFtZXMiOlsiSGVhZGVyIiwiUGxheWVyIiwic3R5bGVzIiwiTXlBcHAiLCJDb21wb25lbnQiLCJwYWdlUHJvcHMiLCJkaXYiLCJjbGFzc05hbWUiLCJ3cmFwcGVyIiwibWFpbiJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/pages/_app.tsx\n");
 
-// EXTERNAL MODULE: ./src/components/Player/styles.module.scss
-var Player_styles_module = __webpack_require__(822);
-var Player_styles_module_default = /*#__PURE__*/__webpack_require__.n(Player_styles_module);
-;// CONCATENATED MODULE: ./src/components/Player/index.tsx
+/***/ }),
 
+/***/ "./src/styles/global.scss":
+/*!********************************!*\
+  !*** ./src/styles/global.scss ***!
+  \********************************/
+/***/ (() => {
 
-function Player() {
-    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-        className: (Player_styles_module_default()).playerContainer,
-        children: [
-            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("header", {
-                children: [
-                    /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                        src: "/playing.svg",
-                        alt: "Tocando agora"
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("strong", {
-                        children: "Tocando Agora"
-                    })
-                ]
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                className: (Player_styles_module_default()).emptyPlayer,
-                children: /*#__PURE__*/ jsx_runtime_.jsx("strong", {
-                    children: "Selecione um podcast para ouvir"
-                })
-            }),
-            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("footer", {
-                className: (Player_styles_module_default()).empty,
-                children: [
-                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                        className: (Player_styles_module_default()).progress,
-                        children: [
-                            /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                children: "00:00"
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                className: (Player_styles_module_default()).slider,
-                                children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                    className: (Player_styles_module_default()).emptySlider
-                                })
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                children: "00:00"
-                            })
-                        ]
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                        className: (Player_styles_module_default()).buttons,
-                        children: [
-                            /*#__PURE__*/ jsx_runtime_.jsx("button", {
-                                type: "button",
-                                children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                    src: "/shuffle.svg",
-                                    alt: "Embaralhar"
-                                })
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("button", {
-                                type: "button",
-                                children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                    src: "/play-previous.svg",
-                                    alt: "Tocar Anterior"
-                                })
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("button", {
-                                type: "button",
-                                className: (Player_styles_module_default()).playButton,
-                                children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                    src: "/play.svg",
-                                    alt: "Tocar"
-                                })
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("button", {
-                                type: "button",
-                                children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                    src: "/play-next.svg",
-                                    alt: "Tocar Pr\xf3xima"
-                                })
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("button", {
-                                type: "button",
-                                children: /*#__PURE__*/ jsx_runtime_.jsx("img", {
-                                    src: "/repeat.svg",
-                                    alt: "Repetir"
-                                })
-                            })
-                        ]
-                    })
-                ]
-            })
-        ]
-    });
-}
-
-// EXTERNAL MODULE: ./src/styles/app.module.scss
-var app_module = __webpack_require__(666);
-var app_module_default = /*#__PURE__*/__webpack_require__.n(app_module);
-;// CONCATENATED MODULE: ./src/pages/_app.tsx
-
-
-
-
-
-function MyApp({ Component , pageProps  }) {
-    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-        className: (app_module_default()).wrapper,
-        children: [
-            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("main", {
-                children: [
-                    /*#__PURE__*/ jsx_runtime_.jsx(Header, {}),
-                    /*#__PURE__*/ jsx_runtime_.jsx(Component, {
-                        ...pageProps
-                    })
-                ]
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx(Player, {})
-        ]
-    });
-}
-/* harmony default export */ const _app = (MyApp);
 
 
 /***/ }),
 
-/***/ 997:
+/***/ "date-fns/format":
+/*!**********************************!*\
+  !*** external "date-fns/format" ***!
+  \**********************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("react/jsx-runtime");
+module.exports = require("date-fns/format");
+
+/***/ }),
+
+/***/ "date-fns/locale/pt-BR":
+/*!****************************************!*\
+  !*** external "date-fns/locale/pt-BR" ***!
+  \****************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("date-fns/locale/pt-BR");
+
+/***/ }),
+
+/***/ "react/jsx-dev-runtime":
+/*!****************************************!*\
+  !*** external "react/jsx-dev-runtime" ***!
+  \****************************************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("react/jsx-dev-runtime");
 
 /***/ })
 
@@ -232,7 +125,7 @@ module.exports = require("react/jsx-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = (__webpack_exec__(736));
+var __webpack_exports__ = (__webpack_exec__("./src/pages/_app.tsx"));
 module.exports = __webpack_exports__;
 
 })();
