@@ -1,34 +1,124 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<!--Banner e logo-->
 
-## Getting Started
+<p align="center">
+   <img src="./public/logo.svg" alt="Podcastr" />
+</p>
 
-First, run the development server:
+<!-- Badges -->
+<p align="center">
+   <a href="https://www.linkedin.com/in/amanda-limasobrinho/">
+      <img alt="Amanda Lima" src="https://img.shields.io/badge/-Amanda Lima-8257E5?style=flat&logo=Linkedin&logoColor=white" />
+   </a>
+
+ <a href="">
+    <img alt="NextLevelWeek#5" src="https://img.shields.io/badge/Next Level Week%20-5.0-%237519C1">
+ </a>
+
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/amanda-lima/podcastr?color=774DD6">
+
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/amanda-lima/podcastr?color=774DD6">
+  
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-8257E5">
+</p>
+
+<!-- Indice-->
+<p align="center">
+ <a href="#-sobre-o-projeto">Sobre</a> •
+ <a href="#-Funcionalidades">Funcionalidades</a> •
+ <a href="#-como-executar-o-projeto">Executando</a> • 
+ <a href="#-tecnologias">Tecnologias</a> • 
+ <a href="#-licença">Licença</a>
+</p>
+
+<!--Sobre o projeto-->
+
+## 💻 Sobre o projeto
+
+O projeto foi desenvolvido durante a **NLW #5- Next Level Week 5** oferecida pela [Rocketseat](https://nextlevelweek.com/episodios/discovery/1/edicao/2), que proporciona uma experiência online com muito conteúdo prático, desafios e hacks onde as aulas ficam disponíveis durante uma semana, um prazo curto que necessita de muito empenho e dedicação.
+
+O <strong>Podcastr</strong> tem como objetivo ser uma plataforma onde se pode acessar os episódios do podcast [#FALADEV](https://www.youtube.com/c/rocketseat?sub_confirmation=1), que é transmitido no canal do YouTube da Rocketseat.
+
+---
+
+<!--Funcionalidades do projeto-->
+
+## ⚙️ Funcionalidades
+
+  - [x] Listagem de todos os episódios;
+  - [x] Resumo sobre episódios;
+  - [x] Player para execução dos episódios;
+
+---
+
+<!--Running session-->
+
+## 🚀 Como executar o projeto
+
+Este projeto consiste em duas partes:
+
+1. [Web](/src/pages)
+2. [Dados](/server.json)
+
+<!--💡Obs-->
+
+#### 🎲 Rodando o projeto
 
 ```bash
-npm run dev
-# or
-yarn dev
+
+# Clone o repositório
+git clone https://github.com/amanda-lima/podcastr.git
+
+# Acesse a pasta do projeto no terminal
+cd podcastr
+
+# Instale as dependências
+yarn install
+
+# Execute o script "dev"
+yarn start
+
+# O projeto inciará na porta: 3000 - acesse http://localhost:3000
+
+# Além disso, rode através do terminal o arquivo do servidor
+yarn server
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+<!--Tecnologies session-->
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## 🛠 Tecnologias
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+As seguintes ferramentas foram usadas na construção do projeto:
 
-## Learn More
+#### **Front-end**
 
-To learn more about Next.js, take a look at the following resources:
+- **[HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)**
+- **[SCSS](https://sass-lang.com/)**
+- **[TypeScript](https://www.typescriptlang.org/)**
+- **[React.js](https://pt-br.reactjs.org/)**
+- **[Next.js](https://nextjs.org/)**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+#### **Back-end**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- **[Node](https://nodejs.org/en/)**
+- **[Npm](https://www.npmjs.com/)**
+- **[Yarn](https://yarnpkg.com/)**
 
-## Deploy on Vercel
+> Veja o arquivo [package.json](./package.json)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+#### **Utilitários**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Editor: **[Visual Studio Code](https://code.visualstudio.com/)**
+- Layout: **[Figma](https://www.figma.com/)** → **[Layout (Podcastr)](https://www.figma.com/file/UwFEntsHpHYJlHNQAQr4gA/Podcastr?node-id=160%3A2761)**
+<!--License session-->
+
+## 📝 Licença
+
+Este projeto está sob a licença [MIT](./LICENSE).
+
+---
+
+<!--Bottom session-->
+<h4 align=center>Desenvolvido por Amanda Lima <a href="https://www.linkedin.com/in/amanda-limasobrinho/"> <strong>Entre em contato</strong> :)</a></h4>
